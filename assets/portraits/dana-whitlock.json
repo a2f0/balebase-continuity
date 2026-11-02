@@ -1,0 +1,13 @@
+{
+  "id": "dana-whitlock",
+  "model": "codex-gpt-6-astra-xhigh",
+  "prompt": "Unretouched employee ID badge photograph of a fictional person in their early 50s: Black woman with deep brown skin, shoulder-length natural hair in a neat twist-out with a few silver strands, dark brown eyes, small silver hoop earrings, a warm, composed smile, wearing a heather-gray cardigan over a burgundy top. Wearing glasses, with no glare on the lenses. Vertical 2:3 frame: head and shoulders, centered, facing the camera straight on, eyes open and looking into the lens, with clear space above the head and the tops of both shoulders in frame. Shot on a full-frame camera with an 85mm lens at f/8 under even, soft studio light with no harsh shadows, against a plain light gray-blue backdrop, in sharp focus. Real skin with visible pores, fine lines, and small blemishes true to the person's age, individual strands of hair with a few flyaways, natural catchlights, slight natural asymmetry, and true-to-life color. It must read as an ordinary photo of a real person: not an illustration, painting, cartoon, 3D render, or CGI, and not airbrushed or beauty-filtered. No text, logos, watermarks, borders, or props.",
+  "promptSha256": "712f2ccfed8efda620e15dfb30838555461aef67a80ff967bddc1572a4298802",
+  "imageSha256": "b880b276fccac43349098d8859cc3c3f48e8f2965b695346094ff8a679cad89c",
+  "generatedOn": "2026-11-02",
+  "framing": {
+    "cx": 0.51,
+    "cy": 0.376,
+    "height": 0.42
+  }
+}

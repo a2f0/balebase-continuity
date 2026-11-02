@@ -1,0 +1,322 @@
+{
+  "asOf": "2026-10-15",
+  "organization": {
+    "name": "Harborline Electric",
+    "tagline": "Commercial and residential electrical contracting",
+    "foundedOn": "2019-04-08",
+    "address": "410 Wharf Road, Merrow Bay, CS 98472",
+    "phone": "(360) 555-0100"
+  },
+  "people": [
+    {
+      "id": "jordan-avery",
+      "name": "Jordan Avery",
+      "age": 45,
+      "jobTitle": "Owner and master electrician",
+      "employer": "Harborline Electric",
+      "appearance": "white man with ruddy fair skin, short sandy-brown hair graying at the temples, a close-trimmed salt-and-pepper beard, hazel eyes, crow's feet from outdoor work, a relaxed, confident half smile, wearing a navy button-up work shirt"
+    },
+    {
+      "id": "dana-whitlock",
+      "name": "Dana Whitlock",
+      "age": 50,
+      "jobTitle": "Office manager",
+      "employer": "Harborline Electric",
+      "appearance": "Black woman with deep brown skin, shoulder-length natural hair in a neat twist-out with a few silver strands, dark brown eyes, small silver hoop earrings, a warm, composed smile, wearing a heather-gray cardigan over a burgundy top"
+    },
+    {
+      "id": "luis-ferreira",
+      "name": "Luis Ferreira",
+      "age": 41,
+      "jobTitle": "Lead technician",
+      "employer": "Harborline Electric",
+      "appearance": "Brazilian-American man with warm medium-brown skin, short black hair with a neat side part, dark brown eyes, a full black mustache with trimmed stubble, a steady, friendly expression, wearing a charcoal work polo"
+    },
+    {
+      "id": "keisha-banks",
+      "name": "Keisha Banks",
+      "age": 33,
+      "jobTitle": "Journeyman electrician",
+      "employer": "Harborline Electric",
+      "appearance": "Black woman with medium-dark brown skin, long box braids pulled back into a low ponytail, dark brown eyes, small gold stud earrings, a confident closed-mouth smile, wearing a forest-green work jacket over a gray t-shirt"
+    },
+    {
+      "id": "tomas-lindqvist",
+      "name": "Tomas Lindqvist",
+      "age": 36,
+      "jobTitle": "Journeyman electrician",
+      "employer": "Harborline Electric",
+      "appearance": "white man with fair skin and light freckles, shaggy straw-blond hair, light blue eyes, a short reddish-blond beard, an easygoing smile showing a little of his teeth, wearing a faded denim work shirt"
+    },
+    {
+      "id": "ren-takahashi",
+      "name": "Ren Takahashi",
+      "age": 23,
+      "jobTitle": "Apprentice electrician",
+      "employer": "Harborline Electric",
+      "appearance": "Japanese-American man with light skin, straight black hair in a short textured cut with a slightly longer fringe, dark brown eyes, clean-shaven, a slightly shy smile, wearing a plain black crewneck sweatshirt"
+    },
+    {
+      "id": "amara-osei",
+      "name": "Amara Osei",
+      "age": 36,
+      "jobTitle": "Estimator and project coordinator",
+      "employer": "Harborline Electric",
+      "appearance": "Ghanaian-American woman with dark brown skin, short cropped natural black hair, dark brown eyes, small gold hoop earrings, a bright, open smile, wearing a mustard-yellow blouse under a navy blazer"
+    },
+    {
+      "id": "grace-whitaker",
+      "name": "Grace Whitaker",
+      "age": 57,
+      "jobTitle": "Facilities director",
+      "employer": "Riverside Community Clinic",
+      "appearance": "white woman with fair skin, a chin-length silver-white bob, blue-gray eyes, pearl stud earrings, a kind but businesslike expression, wearing a teal blouse under a dark gray blazer"
+    },
+    {
+      "id": "owen-mcallister",
+      "name": "Owen McAllister",
+      "age": 47,
+      "jobTitle": "Property manager",
+      "employer": "Oakline Property Group",
+      "appearance": "man of mixed Scottish and Filipino heritage with light tan skin, wavy dark brown hair swept back, brown eyes, clean-shaven with a strong jaw, a polite, reserved smile, wearing a light blue oxford shirt with an open collar"
+    },
+    {
+      "id": "hal-brennan",
+      "name": "Hal Brennan",
+      "age": 64,
+      "jobTitle": "Account representative",
+      "employer": "Northgate Electrical Supply",
+      "appearance": "white man with weathered fair skin, mostly bald with a short gray horseshoe fringe, gray-blue eyes, a thick gray mustache, a cheerful broad grin, wearing a dark green quarter-zip pullover"
+    }
+  ],
+  "counterparties": [
+    {
+      "id": "riverside-clinic",
+      "name": "Riverside Community Clinic",
+      "kind": "client",
+      "address": "2200 Riverside Drive, Merrow Bay, CS 98474"
+    },
+    {
+      "id": "oakline-property",
+      "name": "Oakline Property Group",
+      "kind": "client",
+      "address": "77 Oak Street, Suite 200, Merrow Bay, CS 98473"
+    },
+    {
+      "id": "pell-logistics",
+      "name": "Pell & Daughters Logistics",
+      "kind": "client",
+      "address": "7 Terminal Way, Merrow Bay, CS 98475"
+    },
+    {
+      "id": "northgate-supply",
+      "name": "Northgate Electrical Supply",
+      "kind": "vendor",
+      "address": "1450 Northgate Avenue, Merrow Bay, CS 98476"
+    },
+    {
+      "id": "kestrel-office",
+      "name": "Kestrel Office Technology",
+      "kind": "vendor",
+      "address": "300 Market Street, Merrow Bay, CS 98472"
+    },
+    {
+      "id": "saltmarsh-wireless",
+      "name": "Saltmarsh Wireless",
+      "kind": "vendor",
+      "address": "88 Harbor Plaza, Merrow Bay, CS 98472"
+    },
+    {
+      "id": "merrow-fuel",
+      "name": "Merrow Bay Fuel & Service",
+      "kind": "vendor",
+      "address": "901 Shore Highway, Merrow Bay, CS 98475"
+    },
+    {
+      "id": "copperline-diner",
+      "name": "Copperline Diner",
+      "kind": "vendor",
+      "address": "12 Wharf Road, Merrow Bay, CS 98472"
+    },
+    {
+      "id": "brightline-office",
+      "name": "Brightline Office Supply",
+      "kind": "vendor",
+      "address": "315 Market Street, Merrow Bay, CS 98472"
+    },
+    {
+      "id": "merrow-valley-cu",
+      "name": "Merrow Valley Credit Union",
+      "kind": "bank",
+      "address": "1 Bank Street, Merrow Bay, CS 98472"
+    },
+    {
+      "id": "alder-pike-mutual",
+      "name": "Alder & Pike Mutual Insurance",
+      "kind": "insurer",
+      "address": "640 Granite Street, Merrow Bay, CS 98473"
+    },
+    {
+      "id": "fieldnote-software",
+      "name": "Fieldnote Software",
+      "kind": "software",
+      "address": "55 Foundry Lane, Merrow Bay, CS 98476"
+    },
+    {
+      "id": "wharf-road-properties",
+      "name": "Wharf Road Properties",
+      "kind": "landlord",
+      "address": "400 Wharf Road, Merrow Bay, CS 98472"
+    },
+    {
+      "id": "merrow-bay-utilities",
+      "name": "Merrow Bay Public Utilities",
+      "kind": "utility",
+      "address": "100 City Hall Square, Merrow Bay, CS 98472"
+    }
+  ],
+  "categoryTotals": [
+    {
+      "category": "Equipment",
+      "total": 5281
+    },
+    {
+      "category": "Insurance",
+      "total": 1860
+    },
+    {
+      "category": "Materials",
+      "total": 8521.55
+    },
+    {
+      "category": "Meals",
+      "total": 86.4
+    },
+    {
+      "category": "Office supplies",
+      "total": 64.21
+    },
+    {
+      "category": "Rent and utilities",
+      "total": 6112.36
+    },
+    {
+      "category": "Software and subscriptions",
+      "total": 149
+    },
+    {
+      "category": "Vehicle and fuel",
+      "total": 401.54
+    }
+  ],
+  "images": [
+    {
+      "id": "jordan-avery",
+      "kind": "portrait",
+      "model": "codex-gpt-6-astra-xhigh",
+      "generatedOn": "2026-11-02"
+    },
+    {
+      "id": "dana-whitlock",
+      "kind": "portrait",
+      "model": "codex-gpt-6-astra-xhigh",
+      "generatedOn": "2026-11-02"
+    },
+    {
+      "id": "luis-ferreira",
+      "kind": "portrait",
+      "model": "codex-gpt-6-astra-xhigh",
+      "generatedOn": "2026-11-02"
+    },
+    {
+      "id": "keisha-banks",
+      "kind": "portrait",
+      "model": "codex-gpt-6-astra-xhigh",
+      "generatedOn": "2026-11-02"
+    },
+    {
+      "id": "tomas-lindqvist",
+      "kind": "portrait",
+      "model": "codex-gpt-6-astra-xhigh",
+      "generatedOn": "2026-11-02"
+    },
+    {
+      "id": "ren-takahashi",
+      "kind": "portrait",
+      "model": "codex-gpt-6-astra-xhigh",
+      "generatedOn": "2026-11-02"
+    },
+    {
+      "id": "amara-osei",
+      "kind": "portrait",
+      "model": "codex-gpt-6-astra-xhigh",
+      "generatedOn": "2026-11-02"
+    },
+    {
+      "id": "grace-whitaker",
+      "kind": "portrait",
+      "model": "codex-gpt-6-astra-xhigh",
+      "generatedOn": "2026-11-02"
+    },
+    {
+      "id": "owen-mcallister",
+      "kind": "portrait",
+      "model": "codex-gpt-6-astra-xhigh",
+      "generatedOn": "2026-11-02"
+    },
+    {
+      "id": "hal-brennan",
+      "kind": "portrait",
+      "model": "codex-gpt-6-astra-xhigh",
+      "generatedOn": "2026-11-02"
+    },
+    {
+      "id": "dana-laptop",
+      "kind": "equipment",
+      "model": "codex-gpt-6-astra-xhigh",
+      "generatedOn": "2026-11-02"
+    },
+    {
+      "id": "luis-rugged-laptop",
+      "kind": "equipment",
+      "model": "codex-gpt-6-astra-xhigh",
+      "generatedOn": "2026-11-02"
+    },
+    {
+      "id": "keisha-phone",
+      "kind": "equipment",
+      "model": "codex-gpt-6-astra-xhigh",
+      "generatedOn": "2026-11-02"
+    },
+    {
+      "id": "ren-phone",
+      "kind": "equipment",
+      "model": "codex-gpt-6-astra-xhigh",
+      "generatedOn": "2026-11-02"
+    },
+    {
+      "id": "office-monitor",
+      "kind": "equipment",
+      "model": "codex-gpt-6-astra-xhigh",
+      "generatedOn": "2026-11-02"
+    },
+    {
+      "id": "corroded-breaker-2b",
+      "kind": "site",
+      "model": "codex-gpt-6-astra-xhigh",
+      "generatedOn": "2026-11-02"
+    },
+    {
+      "id": "east-switchgear-labels",
+      "kind": "site",
+      "model": "codex-gpt-6-astra-xhigh",
+      "generatedOn": "2026-11-02"
+    },
+    {
+      "id": "unit-14-gfci",
+      "kind": "site",
+      "model": "codex-gpt-6-astra-xhigh",
+      "generatedOn": "2026-11-02"
+    }
+  ]
+}

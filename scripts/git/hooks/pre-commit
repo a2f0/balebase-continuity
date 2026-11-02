@@ -1,0 +1,20 @@
+#!/bin/sh
+
+set -e
+
+REPO_ROOT="$(git rev-parse --show-toplevel)"
+
+cd "$REPO_ROOT"
+
+echo "Linting branch name..."
+if branch=$(git symbolic-ref --quiet --short HEAD); then
+  bun run --silent lint:branch-name "$branch"
+fi
+
+echo "Checking file names..."
+bun run --silent lint:files
+
+echo "Checking for misplaced binary files..."
+bun run --silent lint:binary-files --staged
+
+bun x --no-install lint-staged

@@ -1,0 +1,8 @@
+{
+  "id": "dana-laptop",
+  "model": "codex-gpt-6-astra-xhigh",
+  "prompt": "Photorealistic equipment inventory photo for a fictional small business: a slim silver-gray aluminum 14-inch laptop, lid open at a comfortable angle, its screen dark and showing only a faint reflection, its keyboard keys printed with plain letters and no logo key, on a tidy office desk by a window, beside a closed paper planner and a ceramic mug. The whole item is visible at a natural three-quarter angle in soft, even light, with realistic materials, fine surface texture, and slight everyday wear, in sharp focus. If any maker text is visible it reads only \"Corvane\" as a small, tasteful wordmark, and a serial label, if visible, reads \"CV14-2602-88172\". No real-world brands or logos, no people or hands, no watermark, overlay, collage, or illustration. It must look like an ordinary, sharp photo an office manager took for the equipment register. Landscape 3:2 composition.",
+  "promptSha256": "cf6748369b12fc2dd2ed9b593c86fbeddccfe2fcf7c1482d931a7e0972a0f0f6",
+  "imageSha256": "1c04ba228748f8bba5df643bbf6824f7f85c042b166f2c9c9b9b64ea79418ddc",
+  "generatedOn": "2026-11-02"
+}

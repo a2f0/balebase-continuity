@@ -1,0 +1,8 @@
+{
+  "id": "luis-rugged-laptop",
+  "model": "codex-gpt-6-astra-xhigh",
+  "prompt": "Photorealistic equipment inventory photo for a fictional small business: a rugged laptop with black rubberized corner bumpers, a graphite shell with dark orange accents, and a carry handle, lid open with its screen dark, on the open tailgate of a white work van parked outside, with a coiled orange extension cord in soft focus behind it. The whole item is visible at a natural three-quarter angle in soft, even light, with realistic materials, fine surface texture, and slight everyday wear, in sharp focus. If any maker text is visible it reads only \"Fieldmark\" as a small, tasteful wordmark, and a serial label, if visible, reads \"FMR-2605-004417\". No real-world brands or logos, no people or hands, no watermark, overlay, collage, or illustration. It must look like an ordinary, sharp photo an office manager took for the equipment register. Landscape 3:2 composition.",
+  "promptSha256": "6f2f6f7ea8d6dcdc08b1b362ebc37bde7cf568d3664d96194909605347a76425",
+  "imageSha256": "9d945e8f46c3b7a9c86fad080d894376b8dcc8d985075e2bec3f6828b0304f6a",
+  "generatedOn": "2026-11-02"
+}

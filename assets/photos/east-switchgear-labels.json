@@ -1,0 +1,8 @@
+{
+  "id": "east-switchgear-labels",
+  "model": "codex-gpt-6-astra-xhigh",
+  "prompt": "Photorealistic job-site documentation photo that an electrician took with a phone for an inspection report: the front of a gray floor-standing switchgear lineup with three closed cabinet doors, pale rectangular outlines and leftover adhesive where warning labels were peeled off, no labels present. Setting: a clean electrical room with a sealed concrete floor, yellow floor tape marking the working clearance, overhead fluorescent light. Realistic materials, dust, and wear, true-to-life color, a natural phone-camera perspective with slight sensor noise, in sharp focus. No people, faces, or hands; no readable text, brand names, or logos; no watermark, arrows, annotations, collage, or illustration. Landscape 4:3 composition.",
+  "promptSha256": "15b566466ba5eeedf2958400cfaa1a5c8438dfceb461dd4f66938f71e0e0f6f4",
+  "imageSha256": "b6b02ff07741953a3608c95f2a536dcdeb20ba638636292ca2476796e15d7fc9",
+  "generatedOn": "2026-11-02"
+}

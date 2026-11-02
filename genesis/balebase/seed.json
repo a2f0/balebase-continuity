@@ -1,0 +1,840 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-10-15",
+  "organization": {
+    "name": "Harborline Electric",
+    "owner": "jordan-avery",
+    "emailDomain": "harborline.example.com"
+  },
+  "people": [
+    {
+      "id": "jordan-avery",
+      "name": "Jordan Avery",
+      "givenName": "Jordan",
+      "familyName": "Avery",
+      "email": "jordan@harborline.example.com",
+      "phone": "(360) 555-0110",
+      "jobTitle": "Owner and master electrician",
+      "employer": "Harborline Electric",
+      "role": "owner",
+      "joinedOn": "2019-04-08",
+      "avatar": "avatars/jordan-avery.jpg",
+      "portrait": "portraits/jordan-avery.jpg"
+    },
+    {
+      "id": "dana-whitlock",
+      "name": "Dana Whitlock",
+      "givenName": "Dana",
+      "familyName": "Whitlock",
+      "email": "dana@harborline.example.com",
+      "phone": "(360) 555-0111",
+      "jobTitle": "Office manager",
+      "employer": "Harborline Electric",
+      "role": "admin",
+      "joinedOn": "2019-06-03",
+      "avatar": "avatars/dana-whitlock.jpg",
+      "portrait": "portraits/dana-whitlock.jpg"
+    },
+    {
+      "id": "luis-ferreira",
+      "name": "Luis Ferreira",
+      "givenName": "Luis",
+      "familyName": "Ferreira",
+      "email": "luis@harborline.example.com",
+      "phone": "(360) 555-0112",
+      "jobTitle": "Lead technician",
+      "employer": "Harborline Electric",
+      "role": "member",
+      "joinedOn": "2020-02-17",
+      "avatar": "avatars/luis-ferreira.jpg",
+      "portrait": "portraits/luis-ferreira.jpg"
+    },
+    {
+      "id": "keisha-banks",
+      "name": "Keisha Banks",
+      "givenName": "Keisha",
+      "familyName": "Banks",
+      "email": "keisha@harborline.example.com",
+      "phone": "(360) 555-0113",
+      "jobTitle": "Journeyman electrician",
+      "employer": "Harborline Electric",
+      "role": "member",
+      "joinedOn": "2021-05-10",
+      "avatar": "avatars/keisha-banks.jpg",
+      "portrait": "portraits/keisha-banks.jpg"
+    },
+    {
+      "id": "tomas-lindqvist",
+      "name": "Tomas Lindqvist",
+      "givenName": "Tomas",
+      "familyName": "Lindqvist",
+      "email": "tomas@harborline.example.com",
+      "phone": "(360) 555-0114",
+      "jobTitle": "Journeyman electrician",
+      "employer": "Harborline Electric",
+      "role": "member",
+      "joinedOn": "2022-03-21",
+      "avatar": "avatars/tomas-lindqvist.jpg",
+      "portrait": "portraits/tomas-lindqvist.jpg"
+    },
+    {
+      "id": "ren-takahashi",
+      "name": "Ren Takahashi",
+      "givenName": "Ren",
+      "familyName": "Takahashi",
+      "email": "ren@harborline.example.com",
+      "phone": "(360) 555-0115",
+      "jobTitle": "Apprentice electrician",
+      "employer": "Harborline Electric",
+      "role": "member",
+      "joinedOn": "2026-09-14",
+      "avatar": "avatars/ren-takahashi.jpg",
+      "portrait": "portraits/ren-takahashi.jpg"
+    },
+    {
+      "id": "amara-osei",
+      "name": "Amara Osei",
+      "givenName": "Amara",
+      "familyName": "Osei",
+      "email": "amara@harborline.example.com",
+      "phone": "(360) 555-0116",
+      "jobTitle": "Estimator and project coordinator",
+      "employer": "Harborline Electric",
+      "role": "member",
+      "joinedOn": "2023-08-28",
+      "avatar": "avatars/amara-osei.jpg",
+      "portrait": "portraits/amara-osei.jpg"
+    },
+    {
+      "id": "grace-whitaker",
+      "name": "Grace Whitaker",
+      "givenName": "Grace",
+      "familyName": "Whitaker",
+      "email": "grace.whitaker@riverside-clinic.example.org",
+      "phone": "(360) 555-0130",
+      "jobTitle": "Facilities director",
+      "employer": "Riverside Community Clinic",
+      "role": null,
+      "joinedOn": null,
+      "avatar": "avatars/grace-whitaker.jpg",
+      "portrait": "portraits/grace-whitaker.jpg"
+    },
+    {
+      "id": "owen-mcallister",
+      "name": "Owen McAllister",
+      "givenName": "Owen",
+      "familyName": "McAllister",
+      "email": "owen@oakline.example.net",
+      "phone": "(360) 555-0131",
+      "jobTitle": "Property manager",
+      "employer": "Oakline Property Group",
+      "role": null,
+      "joinedOn": null,
+      "avatar": "avatars/owen-mcallister.jpg",
+      "portrait": "portraits/owen-mcallister.jpg"
+    },
+    {
+      "id": "hal-brennan",
+      "name": "Hal Brennan",
+      "givenName": "Hal",
+      "familyName": "Brennan",
+      "email": "hal.brennan@northgate-supply.example.com",
+      "phone": "(360) 555-0140",
+      "jobTitle": "Account representative",
+      "employer": "Northgate Electrical Supply",
+      "role": null,
+      "joinedOn": null,
+      "avatar": "avatars/hal-brennan.jpg",
+      "portrait": "portraits/hal-brennan.jpg"
+    }
+  ],
+  "groups": [
+    {
+      "id": "finance",
+      "name": "Finance",
+      "builtIn": "finance",
+      "capabilities": [
+        "finance"
+      ],
+      "members": [
+        "jordan-avery",
+        "dana-whitlock"
+      ]
+    },
+    {
+      "id": "field-crew",
+      "name": "Field crew",
+      "builtIn": null,
+      "capabilities": [],
+      "members": [
+        "luis-ferreira",
+        "keisha-banks",
+        "tomas-lindqvist",
+        "ren-takahashi"
+      ]
+    }
+  ],
+  "businesses": [
+    {
+      "name": "Harborline Electric LLC",
+      "ein": "00-2917365",
+      "streetAddress": "410 Wharf Road",
+      "city": "Merrow Bay",
+      "state": "CS",
+      "zip": "98472",
+      "incorporationDate": "2019-04-08"
+    },
+    {
+      "name": "Harborline Field Services Inc.",
+      "ein": "00-5520194",
+      "streetAddress": "18 Commercial Street",
+      "city": "Merrow Bay",
+      "state": "CS",
+      "zip": "98472",
+      "incorporationDate": "2023-01-17"
+    }
+  ],
+  "equipment": [
+    {
+      "id": "dana-laptop",
+      "type": "computer",
+      "make": "Corvane",
+      "model": "Ledger 14",
+      "serialNumber": "CV14-2602-88172",
+      "purchaseDate": "2026-02-14",
+      "assignee": "dana-whitlock",
+      "photo": "photos/dana-laptop.jpg"
+    },
+    {
+      "id": "luis-rugged-laptop",
+      "type": "computer",
+      "make": "Fieldmark",
+      "model": "FM-14R Rugged",
+      "serialNumber": "FMR-2605-004417",
+      "purchaseDate": "2026-05-30",
+      "assignee": "luis-ferreira",
+      "photo": "photos/luis-rugged-laptop.jpg"
+    },
+    {
+      "id": "keisha-phone",
+      "type": "cell_phone",
+      "make": "Tidewell",
+      "model": "T6 Rugged",
+      "serialNumber": "TW6R-81553027",
+      "purchaseDate": "2026-03-09",
+      "assignee": "keisha-banks",
+      "photo": "photos/keisha-phone.jpg"
+    },
+    {
+      "id": "ren-phone",
+      "type": "cell_phone",
+      "make": "Tidewell",
+      "model": "T5",
+      "serialNumber": "TW5-77210448",
+      "purchaseDate": "2026-09-15",
+      "assignee": "ren-takahashi",
+      "photo": "photos/ren-phone.jpg"
+    },
+    {
+      "id": "office-monitor",
+      "type": "monitor",
+      "make": "Clearline",
+      "model": "CQ27 Pro",
+      "serialNumber": "CLQ27-2511-03391",
+      "purchaseDate": "2025-11-03",
+      "assignee": null,
+      "photo": "photos/office-monitor.jpg"
+    }
+  ],
+  "projects": [
+    {
+      "id": "riverside-clinic-retrofit",
+      "name": "Riverside Clinic retrofit",
+      "description": "Panel upgrades and arc-flash labeling across the clinic's three floors.",
+      "client": "Riverside Community Clinic",
+      "startedOn": "2026-08-24",
+      "members": [
+        "luis-ferreira",
+        "keisha-banks",
+        "amara-osei"
+      ],
+      "forms": [
+        "nfpa70e_global"
+      ]
+    },
+    {
+      "id": "oak-street-apartments",
+      "name": "Oak Street apartments",
+      "description": "Residential inspections for the 24-unit renovation.",
+      "client": "Oakline Property Group",
+      "startedOn": "2026-09-08",
+      "members": [
+        "tomas-lindqvist",
+        "ren-takahashi"
+      ],
+      "forms": [
+        "us_residential_core_global"
+      ]
+    },
+    {
+      "id": "warehouse-7-lighting",
+      "name": "Warehouse 7 lighting",
+      "description": "LED conversion and emergency lighting tests.",
+      "client": "Pell & Daughters Logistics",
+      "startedOn": "2026-10-05",
+      "members": [],
+      "forms": []
+    }
+  ],
+  "audits": [
+    {
+      "id": "riverside-second-floor",
+      "project": "riverside-clinic-retrofit",
+      "form": "nfpa70e_global",
+      "location": "Riverside Community Clinic, second-floor electrical room",
+      "startedBy": "luis-ferreira",
+      "startedOn": "2026-10-06",
+      "status": "in_progress",
+      "completedOn": null
+    },
+    {
+      "id": "oak-street-unit-14",
+      "project": "oak-street-apartments",
+      "form": "us_residential_core_global",
+      "location": "Oak Street apartments, unit 14",
+      "startedBy": "tomas-lindqvist",
+      "startedOn": "2026-09-29",
+      "status": "completed",
+      "completedOn": "2026-09-30"
+    }
+  ],
+  "issues": [
+    {
+      "id": "corroded-breaker-2b",
+      "title": "Replace corroded breaker in panel 2B",
+      "description": "Found during the second-floor walkthrough; panel tagged out until the breaker is replaced.",
+      "priority": "critical",
+      "status": "open",
+      "createdBy": "luis-ferreira",
+      "assignee": "luis-ferreira",
+      "raisedOn": "2026-10-06",
+      "resolvedOn": null,
+      "audit": "riverside-second-floor",
+      "photo": "photos/corroded-breaker-2b.jpg"
+    },
+    {
+      "id": "east-switchgear-labels",
+      "title": "Missing arc-flash labels on east switchgear",
+      "description": "Labels need the updated incident energy values.",
+      "priority": "high",
+      "status": "open",
+      "createdBy": "luis-ferreira",
+      "assignee": "keisha-banks",
+      "raisedOn": "2026-10-07",
+      "resolvedOn": null,
+      "audit": "riverside-second-floor",
+      "photo": "photos/east-switchgear-labels.jpg"
+    },
+    {
+      "id": "unit-14-gfci",
+      "title": "Confirm GFCI coverage in unit 14 kitchen",
+      "description": "The receptacle beside the sink is a standard duplex; confirm whether it is protected downstream.",
+      "priority": "medium",
+      "status": "open",
+      "createdBy": "tomas-lindqvist",
+      "assignee": "ren-takahashi",
+      "raisedOn": "2026-09-30",
+      "resolvedOn": null,
+      "audit": "oak-street-unit-14",
+      "photo": "photos/unit-14-gfci.jpg"
+    },
+    {
+      "id": "spare-ballast-kits",
+      "title": "Order spare emergency ballast kits",
+      "description": "Six kits for the warehouse aisle fixtures.",
+      "priority": "low",
+      "status": "open",
+      "createdBy": "amara-osei",
+      "assignee": null,
+      "raisedOn": "2026-10-09",
+      "resolvedOn": null,
+      "audit": null,
+      "photo": null
+    },
+    {
+      "id": "van-3-ladder-rack",
+      "title": "Re-torque ladder rack on van 3",
+      "description": "The rear crossbar rattles at highway speed.",
+      "priority": "low",
+      "status": "resolved",
+      "createdBy": "tomas-lindqvist",
+      "assignee": "tomas-lindqvist",
+      "raisedOn": "2026-09-15",
+      "resolvedOn": "2026-09-18",
+      "audit": null,
+      "photo": null
+    }
+  ],
+  "finance": {
+    "accounts": [
+      {
+        "id": "operating-checking",
+        "institution": "Merrow Valley Credit Union",
+        "name": "Operating Checking",
+        "officialName": "Business Advantage Checking",
+        "mask": "4417",
+        "type": "depository",
+        "subtype": "checking",
+        "currencyCode": "USD",
+        "currentBalance": 86423.15
+      },
+      {
+        "id": "business-card",
+        "institution": "Merrow Valley Credit Union",
+        "name": "Business Card",
+        "officialName": "Business Rewards Card",
+        "mask": "7781",
+        "type": "credit",
+        "subtype": "credit card",
+        "currencyCode": "USD",
+        "currentBalance": 4128.9
+      }
+    ],
+    "categories": [
+      {
+        "id": "equipment",
+        "name": "Equipment"
+      },
+      {
+        "id": "insurance",
+        "name": "Insurance"
+      },
+      {
+        "id": "materials",
+        "name": "Materials"
+      },
+      {
+        "id": "meals",
+        "name": "Meals"
+      },
+      {
+        "id": "office-supplies",
+        "name": "Office supplies"
+      },
+      {
+        "id": "rent-and-utilities",
+        "name": "Rent and utilities"
+      },
+      {
+        "id": "software",
+        "name": "Software and subscriptions"
+      },
+      {
+        "id": "vehicle-and-fuel",
+        "name": "Vehicle and fuel"
+      }
+    ],
+    "transactions": [
+      {
+        "id": "kestrel-monitor-2025-11",
+        "account": "business-card",
+        "date": "2025-11-03",
+        "name": "KESTREL OFFICE TECH MERROW BAY CS",
+        "merchantName": "Kestrel Office Technology",
+        "amount": 389,
+        "currencyCode": "USD",
+        "category": "equipment",
+        "note": "",
+        "reviewed": true
+      },
+      {
+        "id": "kestrel-laptop-2026-02",
+        "account": "business-card",
+        "date": "2026-02-14",
+        "name": "KESTREL OFFICE TECH MERROW BAY CS",
+        "merchantName": "Kestrel Office Technology",
+        "amount": 1429,
+        "currencyCode": "USD",
+        "category": "equipment",
+        "note": "Replacement laptop for the front office",
+        "reviewed": true
+      },
+      {
+        "id": "saltmarsh-phone-2026-03",
+        "account": "business-card",
+        "date": "2026-03-09",
+        "name": "SALTMARSH WIRELESS #0214",
+        "merchantName": "Saltmarsh Wireless",
+        "amount": 749,
+        "currencyCode": "USD",
+        "category": "equipment",
+        "note": "",
+        "reviewed": true
+      },
+      {
+        "id": "kestrel-rugged-2026-05",
+        "account": "business-card",
+        "date": "2026-05-30",
+        "name": "KESTREL OFFICE TECH MERROW BAY CS",
+        "merchantName": "Kestrel Office Technology",
+        "amount": 2185,
+        "currencyCode": "USD",
+        "category": "equipment",
+        "note": "Rugged laptop for the lead technician",
+        "reviewed": true
+      },
+      {
+        "id": "wharf-road-rent-2026-09",
+        "account": "operating-checking",
+        "date": "2026-09-01",
+        "name": "WHARF ROAD PROPERTIES ACH",
+        "merchantName": "Wharf Road Properties",
+        "amount": 2850,
+        "currencyCode": "USD",
+        "category": "rent-and-utilities",
+        "note": "",
+        "reviewed": true
+      },
+      {
+        "id": "northgate-2026-09-10",
+        "account": "business-card",
+        "date": "2026-09-10",
+        "name": "NORTHGATE ELECTRICAL SUP",
+        "merchantName": "Northgate Electrical Supply",
+        "amount": 6187.45,
+        "currencyCode": "USD",
+        "category": "materials",
+        "note": "Riverside panel breakers and arc-flash label stock",
+        "reviewed": true
+      },
+      {
+        "id": "saltmarsh-phone-2026-09",
+        "account": "business-card",
+        "date": "2026-09-15",
+        "name": "SALTMARSH WIRELESS #0214",
+        "merchantName": "Saltmarsh Wireless",
+        "amount": 529,
+        "currencyCode": "USD",
+        "category": "equipment",
+        "note": "Phone for the new apprentice",
+        "reviewed": true
+      },
+      {
+        "id": "merrow-fuel-2026-09-18",
+        "account": "business-card",
+        "date": "2026-09-18",
+        "name": "MERROW BAY FUEL 0031",
+        "merchantName": "Merrow Bay Fuel & Service",
+        "amount": 187.64,
+        "currencyCode": "USD",
+        "category": "vehicle-and-fuel",
+        "note": "",
+        "reviewed": true
+      },
+      {
+        "id": "utilities-2026-09",
+        "account": "operating-checking",
+        "date": "2026-09-22",
+        "name": "MERROW BAY PUB UTIL AUTOPAY",
+        "merchantName": "Merrow Bay Public Utilities",
+        "amount": 412.36,
+        "currencyCode": "USD",
+        "category": "rent-and-utilities",
+        "note": "",
+        "reviewed": true
+      },
+      {
+        "id": "alder-pike-2026-09",
+        "account": "operating-checking",
+        "date": "2026-09-30",
+        "name": "ALDER PIKE MUTUAL INS PREM",
+        "merchantName": "Alder & Pike Mutual Insurance",
+        "amount": 1860,
+        "currencyCode": "USD",
+        "category": "insurance",
+        "note": "",
+        "reviewed": true
+      },
+      {
+        "id": "wharf-road-rent-2026-10",
+        "account": "operating-checking",
+        "date": "2026-10-01",
+        "name": "WHARF ROAD PROPERTIES ACH",
+        "merchantName": "Wharf Road Properties",
+        "amount": 2850,
+        "currencyCode": "USD",
+        "category": "rent-and-utilities",
+        "note": "",
+        "reviewed": true
+      },
+      {
+        "id": "merrow-fuel-2026-10-02",
+        "account": "business-card",
+        "date": "2026-10-02",
+        "name": "MERROW BAY FUEL 0031",
+        "merchantName": "Merrow Bay Fuel & Service",
+        "amount": 213.9,
+        "currencyCode": "USD",
+        "category": "vehicle-and-fuel",
+        "note": "",
+        "reviewed": true
+      },
+      {
+        "id": "fieldnote-2026-10",
+        "account": "business-card",
+        "date": "2026-10-05",
+        "name": "FIELDNOTE SOFTWARE SUBSCR",
+        "merchantName": "Fieldnote Software",
+        "amount": 149,
+        "currencyCode": "USD",
+        "category": "software",
+        "note": "",
+        "reviewed": true
+      },
+      {
+        "id": "northgate-2026-10-08",
+        "account": "business-card",
+        "date": "2026-10-08",
+        "name": "NORTHGATE ELECTRICAL SUP",
+        "merchantName": "Northgate Electrical Supply",
+        "amount": 2334.1,
+        "currencyCode": "USD",
+        "category": "materials",
+        "note": "Warehouse 7 LED fixtures, first delivery",
+        "reviewed": false
+      },
+      {
+        "id": "copperline-2026-10-09",
+        "account": "business-card",
+        "date": "2026-10-09",
+        "name": "COPPERLINE DINER",
+        "merchantName": "Copperline Diner",
+        "amount": 86.4,
+        "currencyCode": "USD",
+        "category": "meals",
+        "note": "Crew lunch after the Riverside walkthrough",
+        "reviewed": false
+      },
+      {
+        "id": "brightline-2026-10-12",
+        "account": "business-card",
+        "date": "2026-10-12",
+        "name": "BRIGHTLINE OFFICE SUPPLY",
+        "merchantName": "Brightline Office Supply",
+        "amount": 64.21,
+        "currencyCode": "USD",
+        "category": "office-supplies",
+        "note": "",
+        "reviewed": false
+      }
+    ]
+  },
+  "contracts": [
+    {
+      "id": "riverside-retrofit-agreement",
+      "title": "Riverside Clinic retrofit agreement",
+      "status": "completed",
+      "counterparty": "Riverside Community Clinic",
+      "project": "riverside-clinic-retrofit",
+      "value": 186400,
+      "sentOn": "2026-08-12",
+      "dueOn": "2026-08-19",
+      "completedOn": "2026-08-17",
+      "signers": [
+        {
+          "person": "jordan-avery",
+          "name": "Jordan Avery",
+          "email": "jordan@harborline.example.com",
+          "routingOrder": 1,
+          "status": "signed"
+        },
+        {
+          "person": "grace-whitaker",
+          "name": "Grace Whitaker",
+          "email": "grace.whitaker@riverside-clinic.example.org",
+          "routingOrder": 2,
+          "status": "signed"
+        }
+      ],
+      "document": {
+        "file": "contracts/riverside-retrofit-agreement.pdf",
+        "filename": "riverside-retrofit-agreement.pdf",
+        "contentType": "application/pdf",
+        "size": 3352,
+        "sha256": "7f502de19ef999039f1638404458ebf60ff527dc1300dd8c00d080a2f4bb057c",
+        "pageCount": 1
+      }
+    },
+    {
+      "id": "oak-street-inspection-agreement",
+      "title": "Oak Street inspection services",
+      "status": "sent",
+      "counterparty": "Oakline Property Group",
+      "project": "oak-street-apartments",
+      "value": 21600,
+      "sentOn": "2026-10-09",
+      "dueOn": "2026-10-23",
+      "completedOn": null,
+      "signers": [
+        {
+          "person": "jordan-avery",
+          "name": "Jordan Avery",
+          "email": "jordan@harborline.example.com",
+          "routingOrder": 1,
+          "status": "signed"
+        },
+        {
+          "person": "owen-mcallister",
+          "name": "Owen McAllister",
+          "email": "owen@oakline.example.net",
+          "routingOrder": 2,
+          "status": "sent"
+        }
+      ],
+      "document": {
+        "file": "contracts/oak-street-inspection-agreement.pdf",
+        "filename": "oak-street-inspection-agreement.pdf",
+        "contentType": "application/pdf",
+        "size": 2872,
+        "sha256": "c2cd769681c384149ed773d05eac4a4aae9e8f18d797a4ce8b85ff524ad35d21",
+        "pageCount": 1
+      }
+    },
+    {
+      "id": "warehouse-7-proposal",
+      "title": "Warehouse 7 LED conversion proposal",
+      "status": "draft",
+      "counterparty": "Pell & Daughters Logistics",
+      "project": "warehouse-7-lighting",
+      "value": 64500,
+      "sentOn": null,
+      "dueOn": null,
+      "completedOn": null,
+      "signers": [
+        {
+          "person": "jordan-avery",
+          "name": "Jordan Avery",
+          "email": "jordan@harborline.example.com",
+          "routingOrder": 1,
+          "status": "pending"
+        }
+      ],
+      "document": {
+        "file": "contracts/warehouse-7-proposal.pdf",
+        "filename": "warehouse-7-proposal.pdf",
+        "contentType": "application/pdf",
+        "size": 2138,
+        "sha256": "989739dcdf4ab82124ad59be31951965a2099e269eb39a290d3f185f2331e03a",
+        "pageCount": 1
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "id": "ren-withholding-form",
+      "person": "ren-takahashi",
+      "kind": "form",
+      "title": "Tax withholding form",
+      "requestedBy": "dana-whitlock",
+      "requestedOn": "2026-09-14",
+      "dueOn": "2026-09-21",
+      "status": "complete",
+      "completedOn": "2026-09-16"
+    },
+    {
+      "id": "ren-background-check",
+      "person": "ren-takahashi",
+      "kind": "background_check",
+      "title": "Background check",
+      "requestedBy": "dana-whitlock",
+      "requestedOn": "2026-09-14",
+      "dueOn": "2026-09-28",
+      "status": "in_progress",
+      "completedOn": null
+    },
+    {
+      "id": "ren-safety-acknowledgment",
+      "person": "ren-takahashi",
+      "kind": "form",
+      "title": "Electrical safety training acknowledgment",
+      "requestedBy": "dana-whitlock",
+      "requestedOn": "2026-10-01",
+      "dueOn": "2026-10-31",
+      "status": "pending",
+      "completedOn": null
+    },
+    {
+      "id": "keisha-safety-acknowledgment",
+      "person": "keisha-banks",
+      "kind": "form",
+      "title": "Electrical safety training acknowledgment",
+      "requestedBy": "dana-whitlock",
+      "requestedOn": "2026-10-01",
+      "dueOn": "2026-10-31",
+      "status": "complete",
+      "completedOn": "2026-10-03"
+    },
+    {
+      "id": "tomas-direct-deposit",
+      "person": "tomas-lindqvist",
+      "kind": "form",
+      "title": "Direct deposit authorization",
+      "requestedBy": "dana-whitlock",
+      "requestedOn": "2026-10-06",
+      "dueOn": "2026-10-20",
+      "status": "submitted",
+      "completedOn": null
+    }
+  ],
+  "library": {
+    "folders": [
+      {
+        "id": "safety",
+        "name": "Safety"
+      },
+      {
+        "id": "insurance",
+        "name": "Insurance"
+      },
+      {
+        "id": "fleet",
+        "name": "Fleet"
+      }
+    ],
+    "documents": [
+      {
+        "id": "electrical-safety-program",
+        "folder": "safety",
+        "title": "Electrical safety program",
+        "file": "library/electrical-safety-program.pdf",
+        "filename": "electrical-safety-program.pdf",
+        "contentType": "application/pdf",
+        "size": 2322,
+        "sha256": "2eabbcd1af9345565e8d7c24f67082d7ae086f386f60c1d3682690230fa6a17c",
+        "pageCount": 1
+      },
+      {
+        "id": "certificate-of-insurance-2026",
+        "folder": "insurance",
+        "title": "Certificate of liability insurance",
+        "file": "library/certificate-of-insurance-2026.pdf",
+        "filename": "certificate-of-insurance-2026.pdf",
+        "contentType": "application/pdf",
+        "size": 1985,
+        "sha256": "4abf4739cc6d9ff963975c9560a20feb808fb7020a017c703726a670c785501e",
+        "pageCount": 1
+      },
+      {
+        "id": "vehicle-inspection-checklist",
+        "folder": "fleet",
+        "title": "Vehicle inspection checklist",
+        "file": "library/vehicle-inspection-checklist.pdf",
+        "filename": "vehicle-inspection-checklist.pdf",
+        "contentType": "application/pdf",
+        "size": 1838,
+        "sha256": "8169462605bc69f52616d742ee531971bfbb9a96238500dbb920555bdac6f0f4",
+        "pageCount": 1
+      }
+    ]
+  }
+}

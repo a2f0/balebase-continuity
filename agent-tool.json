@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "subject": {
+    "maxLength": 50,
+    "types": [
+      "build",
+      "chore",
+      "ci",
+      "cleanup",
+      "docs",
+      "feat",
+      "fix",
+      "perf",
+      "refactor",
+      "revert",
+      "style",
+      "test"
+    ]
+  },
+  "merge": {
+    "requiredChecks": [
+      {
+        "name": "CI gate",
+        "workflow": "CI"
+      }
+    ],
+    "requireStrictBaseFreshness": true
+  },
+  "versions": {
+    "packages": ["."]
+  },
+  "pr": {
+    "rejectClaudeBranding": true
+  },
+  "branch": {
+    "types": [
+      "build",
+      "chore",
+      "ci",
+      "cleanup",
+      "docs",
+      "feat",
+      "fix",
+      "perf",
+      "refactor",
+      "revert",
+      "style",
+      "test"
+    ],
+    "exempt": ["main"],
+    "maxLength": 50
+  },
+  "hooks": {
+    "files": [
+      {
+        "source": "scripts/git/hooks/commit-msg",
+        "target": "commit-msg",
+        "executable": true
+      },
+      {
+        "source": "scripts/git/hooks/pre-commit",
+        "target": "pre-commit",
+        "executable": true
+      },
+      {
+        "source": "scripts/git/hooks/pre-push",
+        "target": "pre-push",
+        "executable": true
+      }
+    ]
+  },
+  "commits": {
+    "signatures": "present",
+    "signatureHeaderFallback": false,
+    "rejectCoauthors": true,
+    "rejectClaudeAttribution": true,
+    "subjects": true
+  },
+  "binaries": {
+    "allow": [
+      "assets/fonts/**/*.ttf",
+      "assets/portraits/*.jpg",
+      "assets/photos/*.jpg",
+      "genesis/**/*.jpg",
+      "genesis/**/*.pdf"
+    ]
+  },
+  "permissions": {
+    "executables": {
+      "commitlint": "local",
+      "wrangler": "release"
+    }
+  },
+  "images": {
+    "targets": {
+      "favicons": {
+        "outputs": [
+          {
+            "path": "favicon.svg",
+            "layers": [{ "source": "logo" }]
+          },
+          {
+            "path": "favicon.ico",
+            "sizes": [16, 32, 48],
+            "layers": [{ "source": "logo" }]
+          },
+          {
+            "path": "apple-touch-icon.png",
+            "size": 180,
+            "opaque": true,
+            "layers": [
+              { "fill": "#1d2a24" },
+              { "source": "logo", "scale": 0.8 }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

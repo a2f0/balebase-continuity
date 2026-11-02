@@ -1,0 +1,8 @@
+{
+  "id": "ren-phone",
+  "model": "codex-gpt-6-astra-xhigh",
+  "prompt": "Photorealistic equipment inventory photo for a fictional small business: a slim dark blue smartphone in a clear protective case, lying face down so its camera bump and back are visible, on a metal clipboard holding a blank inspection form, on the dashboard shelf of a work truck. The whole item is visible at a natural three-quarter angle in soft, even light, with realistic materials, fine surface texture, and slight everyday wear, in sharp focus. If any maker text is visible it reads only \"Tidewell\" as a small, tasteful wordmark, and a serial label, if visible, reads \"TW5-77210448\". No real-world brands or logos, no people or hands, no watermark, overlay, collage, or illustration. It must look like an ordinary, sharp photo an office manager took for the equipment register. Landscape 3:2 composition.",
+  "promptSha256": "22e8bb4e9652530d2dfa089f2585b969ebc4ce2a9bbe4a7799516f839c97437a",
+  "imageSha256": "d8944ff5c153da30d8129d744ea06c922d309f91416e6548be02b9d5b09fb1f4",
+  "generatedOn": "2026-11-02"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "tomas-lindqvist",
+  "model": "codex-gpt-6-astra-xhigh",
+  "prompt": "Unretouched employee ID badge photograph of a fictional person in their mid 30s: white man with fair skin and light freckles, shaggy straw-blond hair, light blue eyes, a short reddish-blond beard, an easygoing smile showing a little of his teeth, wearing a faded denim work shirt. No glasses. Vertical 2:3 frame: head and shoulders, centered, facing the camera straight on, eyes open and looking into the lens, with clear space above the head and the tops of both shoulders in frame. Shot on a full-frame camera with an 85mm lens at f/8 under even, soft studio light with no harsh shadows, against a plain light gray-blue backdrop, in sharp focus. Real skin with visible pores, fine lines, and small blemishes true to the person's age, individual strands of hair with a few flyaways, natural catchlights, slight natural asymmetry, and true-to-life color. It must read as an ordinary photo of a real person: not an illustration, painting, cartoon, 3D render, or CGI, and not airbrushed or beauty-filtered. No text, logos, watermarks, borders, or props.",
+  "promptSha256": "a0646c120672fb99111ea0cc60cef2e54cf5e6709ec4116a9c61f1dbabde2110",
+  "imageSha256": "800e25d36485d9c526234715f363d51b94dd2d99e37ced44c348f7e9575e9c9b",
+  "generatedOn": "2026-11-02",
+  "framing": {
+    "cx": 0.5,
+    "cy": 0.381,
+    "height": 0.553
+  }
+}

@@ -1,0 +1,56 @@
+%PDF-1.7
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 1473 >>
+stream
+BT /F2 9 Tf 0.4 g 72 711 Td (HARBORLINE ELECTRIC) Tj ET
+BT /F2 20 Tf 0.1 g 72 681 Td (Electrical safety program) Tj ET
+BT /F1 10 Tf 0.35 g 72 665 Td (Issued by Jordan Avery on January 12, 2026) Tj ET
+BT /F2 11.5 Tf 0.1 g 72 636 Td (Purpose) Tj ET
+BT /F1 10.5 Tf 0.15 g 72 617 Td (This program sets out how Harborline Electric keeps its crews safe around energized equipment. It) Tj ET
+BT /F1 10.5 Tf 0.15 g 72 602 Td (applies to every employee and every job site.) Tj ET
+BT /F2 11.5 Tf 0.1 g 72 573 Td (De-energize first) Tj ET
+BT /F1 10.5 Tf 0.15 g 72 554 Td (Equipment is placed in an electrically safe work condition before work begins: disconnected, locked) Tj ET
+BT /F1 10.5 Tf 0.15 g 72 539 Td (and tagged out, and tested for absence of voltage. Energized work requires a written permit signed) Tj ET
+BT /F1 10.5 Tf 0.15 g 72 524 Td (by the owner.) Tj ET
+BT /F2 11.5 Tf 0.1 g 72 495 Td (Arc-flash labels) Tj ET
+BT /F1 10.5 Tf 0.15 g 72 476 Td (Every panel and switchgear section we service carries a current arc-flash label. Missing or outdated) Tj ET
+BT /F1 10.5 Tf 0.15 g 72 461 Td (labels are reported as an issue on the day they are found.) Tj ET
+BT /F2 11.5 Tf 0.1 g 72 432 Td (Training) Tj ET
+BT /F1 10.5 Tf 0.15 g 72 413 Td (Every field employee completes electrical safety training on hire and every three years after, and) Tj ET
+BT /F1 10.5 Tf 0.15 g 72 398 Td (signs an acknowledgment in Balebase.) Tj ET
+BT /F1 10 Tf 0.35 g 488.85 40 Td (Page 1 of 1) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Title (Electrical safety program) /Author (Jordan Avery) /Producer (balebase-continuity) >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000212 00000 n 
+0000000314 00000 n 
+0000000450 00000 n 
+0000001975 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R /Info 7 0 R >>
+startxref
+2086
+%%EOF

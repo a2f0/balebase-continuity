@@ -1,0 +1,13 @@
+{
+  "id": "luis-ferreira",
+  "model": "codex-gpt-6-astra-xhigh",
+  "prompt": "Unretouched employee ID badge photograph of a fictional person in their early 40s: Brazilian-American man with warm medium-brown skin, short black hair with a neat side part, dark brown eyes, a full black mustache with trimmed stubble, a steady, friendly expression, wearing a charcoal work polo. No glasses. Vertical 2:3 frame: head and shoulders, centered, facing the camera straight on, eyes open and looking into the lens, with clear space above the head and the tops of both shoulders in frame. Shot on a full-frame camera with an 85mm lens at f/8 under even, soft studio light with no harsh shadows, against a plain light gray-blue backdrop, in sharp focus. Real skin with visible pores, fine lines, and small blemishes true to the person's age, individual strands of hair with a few flyaways, natural catchlights, slight natural asymmetry, and true-to-life color. It must read as an ordinary photo of a real person: not an illustration, painting, cartoon, 3D render, or CGI, and not airbrushed or beauty-filtered. No text, logos, watermarks, borders, or props.",
+  "promptSha256": "db6d969360878404b7bee0641a37ef448f131ee4049265b932d3838099104814",
+  "imageSha256": "0d6c8034acf2f252cd470a57ee28924f27ffacd6f7b0e5721cdd5c26d9230843",
+  "generatedOn": "2026-11-02",
+  "framing": {
+    "cx": 0.51,
+    "cy": 0.378,
+    "height": 0.521
+  }
+}
