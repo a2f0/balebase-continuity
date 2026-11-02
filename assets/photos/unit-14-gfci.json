@@ -1,0 +1,8 @@
+{
+  "id": "unit-14-gfci",
+  "model": "codex-gpt-6-astra-xhigh",
+  "prompt": "Photorealistic job-site documentation photo that an electrician took with a phone for an inspection report: a standard white duplex wall receptacle with no test or reset buttons, mounted in a white subway-tile backsplash a short distance from a stainless steel kitchen sink faucet. Setting: a freshly renovated apartment kitchen with a pale quartz countertop, daylight from a window to the right. Realistic materials, dust, and wear, true-to-life color, a natural phone-camera perspective with slight sensor noise, in sharp focus. No people, faces, or hands; no readable text, brand names, or logos; no watermark, arrows, annotations, collage, or illustration. Landscape 4:3 composition.",
+  "promptSha256": "5c58afd35f38e11e38a45769569a1b5c1ae8e869ec00038b4fe33a56a081bc80",
+  "imageSha256": "660a5a600feb1cf82bb9f19e88ba073e63151c7329f2fdd6d0c1c1733dfb586b",
+  "generatedOn": "2026-11-02"
+}

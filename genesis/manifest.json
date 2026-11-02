@@ -1,0 +1,185 @@
+{
+  "asOf": "2026-10-15",
+  "files": [
+    {
+      "bytes": 42845,
+      "path": "avatars/amara-osei.jpg",
+      "sha256": "ba910a8f2bfdd4084f15fbab12382a3490370acefaf785e24cf14530e341201b"
+    },
+    {
+      "bytes": 65631,
+      "path": "avatars/dana-whitlock.jpg",
+      "sha256": "60bc97962a23cad8853fdfb9d8da9777b0aa10125b15e2bdb866587e69a3e852"
+    },
+    {
+      "bytes": 54239,
+      "path": "avatars/grace-whitaker.jpg",
+      "sha256": "a1ad4c94a34aa016bffc78625f3e4e31ab8db6bb6a1de7c45213c0b1a4787c42"
+    },
+    {
+      "bytes": 51868,
+      "path": "avatars/hal-brennan.jpg",
+      "sha256": "1ff1cf5b6f20f01150272044df086c40918dbd70221792a86d8081769053cf50"
+    },
+    {
+      "bytes": 57105,
+      "path": "avatars/jordan-avery.jpg",
+      "sha256": "2fce652858057714ae04a0b5bd3f02cee2ad6591f3c8f66a65f627ecf9cf5d51"
+    },
+    {
+      "bytes": 50000,
+      "path": "avatars/keisha-banks.jpg",
+      "sha256": "9abb59c479457c3abddbe1c99da3af8b6a565661011612e7915c900c4314a0e6"
+    },
+    {
+      "bytes": 53733,
+      "path": "avatars/luis-ferreira.jpg",
+      "sha256": "a4b80961690ebe4eaa4ff1f03baf20e9fe5974013b443dfd6d0f12c1602f15c8"
+    },
+    {
+      "bytes": 51543,
+      "path": "avatars/owen-mcallister.jpg",
+      "sha256": "3bec9492b3454c01f74fd1ba77d93c9e4b55bd0228b5641e58bf5554eb252431"
+    },
+    {
+      "bytes": 41666,
+      "path": "avatars/ren-takahashi.jpg",
+      "sha256": "8c2abc46f174c837e64b65c4aa6f3dea10b67e29074800f90b1299a34ed7e174"
+    },
+    {
+      "bytes": 60026,
+      "path": "avatars/tomas-lindqvist.jpg",
+      "sha256": "fcb49f052054a47e88c32387faaad66de3f3458112c28b43407fb5ccddfe4ae8"
+    },
+    {
+      "bytes": 24557,
+      "path": "balebase/seed.json",
+      "sha256": "b35e48297266ae56bedc385a1e8b9492668401e54f86b68f0b97241d4051eef4"
+    },
+    {
+      "bytes": 9960,
+      "path": "canon.json",
+      "sha256": "4bd329950987e42d092d8eca8ca5c6a447cb5834f426f64be3a29eb86a0ee7a9"
+    },
+    {
+      "bytes": 2872,
+      "path": "contracts/oak-street-inspection-agreement.pdf",
+      "sha256": "c2cd769681c384149ed773d05eac4a4aae9e8f18d797a4ce8b85ff524ad35d21"
+    },
+    {
+      "bytes": 3352,
+      "path": "contracts/riverside-retrofit-agreement.pdf",
+      "sha256": "7f502de19ef999039f1638404458ebf60ff527dc1300dd8c00d080a2f4bb057c"
+    },
+    {
+      "bytes": 2138,
+      "path": "contracts/warehouse-7-proposal.pdf",
+      "sha256": "989739dcdf4ab82124ad59be31951965a2099e269eb39a290d3f185f2331e03a"
+    },
+    {
+      "bytes": 1985,
+      "path": "library/certificate-of-insurance-2026.pdf",
+      "sha256": "4abf4739cc6d9ff963975c9560a20feb808fb7020a017c703726a670c785501e"
+    },
+    {
+      "bytes": 2322,
+      "path": "library/electrical-safety-program.pdf",
+      "sha256": "2eabbcd1af9345565e8d7c24f67082d7ae086f386f60c1d3682690230fa6a17c"
+    },
+    {
+      "bytes": 1838,
+      "path": "library/vehicle-inspection-checklist.pdf",
+      "sha256": "8169462605bc69f52616d742ee531971bfbb9a96238500dbb920555bdac6f0f4"
+    },
+    {
+      "bytes": 481480,
+      "path": "photos/corroded-breaker-2b.jpg",
+      "sha256": "ac24f057bfd025418943091464dcd2be5fee6937c9db024e5067c6dfed41acec"
+    },
+    {
+      "bytes": 354723,
+      "path": "photos/dana-laptop.jpg",
+      "sha256": "1c04ba228748f8bba5df643bbf6824f7f85c042b166f2c9c9b9b64ea79418ddc"
+    },
+    {
+      "bytes": 323355,
+      "path": "photos/east-switchgear-labels.jpg",
+      "sha256": "b6b02ff07741953a3608c95f2a536dcdeb20ba638636292ca2476796e15d7fc9"
+    },
+    {
+      "bytes": 582300,
+      "path": "photos/keisha-phone.jpg",
+      "sha256": "17a5a9867a3408934e74d7b31eb26dcfc1238c93cbbd811cec63117287479bc5"
+    },
+    {
+      "bytes": 393276,
+      "path": "photos/luis-rugged-laptop.jpg",
+      "sha256": "9d945e8f46c3b7a9c86fad080d894376b8dcc8d985075e2bec3f6828b0304f6a"
+    },
+    {
+      "bytes": 352072,
+      "path": "photos/office-monitor.jpg",
+      "sha256": "02bb14e26760f45f2f748f64460844dc0431a22b0e365566d2bbc15911e448c9"
+    },
+    {
+      "bytes": 410554,
+      "path": "photos/ren-phone.jpg",
+      "sha256": "d8944ff5c153da30d8129d744ea06c922d309f91416e6548be02b9d5b09fb1f4"
+    },
+    {
+      "bytes": 325265,
+      "path": "photos/unit-14-gfci.jpg",
+      "sha256": "660a5a600feb1cf82bb9f19e88ba073e63151c7329f2fdd6d0c1c1733dfb586b"
+    },
+    {
+      "bytes": 253021,
+      "path": "portraits/amara-osei.jpg",
+      "sha256": "597933727590f101582e3ceebc624dc8ef33c7f61aa9380f3b39419a304f4b84"
+    },
+    {
+      "bytes": 462724,
+      "path": "portraits/dana-whitlock.jpg",
+      "sha256": "b880b276fccac43349098d8859cc3c3f48e8f2965b695346094ff8a679cad89c"
+    },
+    {
+      "bytes": 365148,
+      "path": "portraits/grace-whitaker.jpg",
+      "sha256": "edbb3f17a4e9825dc68d4ef46b9684078c054588cf964376d64e1565a832d367"
+    },
+    {
+      "bytes": 362686,
+      "path": "portraits/hal-brennan.jpg",
+      "sha256": "bc3429898002999a8ee69e39d345ad6498f7dc84465886b5e18a5d459a8f595b"
+    },
+    {
+      "bytes": 364429,
+      "path": "portraits/jordan-avery.jpg",
+      "sha256": "4250cf0a80e52730a2b44b863040e7f25fc6c9ae836015e6a1bcbab3de72f944"
+    },
+    {
+      "bytes": 333557,
+      "path": "portraits/keisha-banks.jpg",
+      "sha256": "101963b4a3aab4a11fed8bfd3d73d8139bce17549cb37e3a7c5b359dfa7bb4f5"
+    },
+    {
+      "bytes": 376260,
+      "path": "portraits/luis-ferreira.jpg",
+      "sha256": "0d6c8034acf2f252cd470a57ee28924f27ffacd6f7b0e5721cdd5c26d9230843"
+    },
+    {
+      "bytes": 345960,
+      "path": "portraits/owen-mcallister.jpg",
+      "sha256": "7a0e3294210a64dfdb97ec675856e2692f4175b8931ca01d2f4aa5f28a113242"
+    },
+    {
+      "bytes": 236419,
+      "path": "portraits/ren-takahashi.jpg",
+      "sha256": "d877eeec73a0ac2bb2cd75a7eccb9362bff9703334e08ae9801d95cea9e8a8f0"
+    },
+    {
+      "bytes": 447464,
+      "path": "portraits/tomas-lindqvist.jpg",
+      "sha256": "800e25d36485d9c526234715f363d51b94dd2d99e37ced44c348f7e9575e9c9b"
+    }
+  ]
+}

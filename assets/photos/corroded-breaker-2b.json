@@ -1,0 +1,8 @@
+{
+  "id": "corroded-breaker-2b",
+  "model": "codex-gpt-6-astra-xhigh",
+  "prompt": "Photorealistic job-site documentation photo that an electrician took with a phone for an inspection report: the inside of an open gray commercial electrical panel with its dead-front cover removed, rows of black circuit breakers, one breaker near the middle with chalky blue-green corrosion crusted on its terminal screw and the bus bar beneath it. Setting: a dim utility room lit by a flashlight from the lower left, photographed close up and slightly off-axis. Realistic materials, dust, and wear, true-to-life color, a natural phone-camera perspective with slight sensor noise, in sharp focus. No people, faces, or hands; no readable text, brand names, or logos; no watermark, arrows, annotations, collage, or illustration. Landscape 4:3 composition.",
+  "promptSha256": "ca04fa510e4ff51410bf56d8e22d9b82b6348f312bfff99e739463e91596e6b0",
+  "imageSha256": "ac24f057bfd025418943091464dcd2be5fee6937c9db024e5067c6dfed41acec",
+  "generatedOn": "2026-11-02"
+}

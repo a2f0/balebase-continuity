@@ -1,0 +1,13 @@
+{
+  "id": "ren-takahashi",
+  "model": "codex-gpt-6-astra-xhigh",
+  "prompt": "Unretouched employee ID badge photograph of a fictional person in their early 20s: Japanese-American man with light skin, straight black hair in a short textured cut with a slightly longer fringe, dark brown eyes, clean-shaven, a slightly shy smile, wearing a plain black crewneck sweatshirt. No glasses. Vertical 2:3 frame: head and shoulders, centered, facing the camera straight on, eyes open and looking into the lens, with clear space above the head and the tops of both shoulders in frame. Shot on a full-frame camera with an 85mm lens at f/8 under even, soft studio light with no harsh shadows, against a plain light gray-blue backdrop, in sharp focus. Real skin with visible pores, fine lines, and small blemishes true to the person's age, individual strands of hair with a few flyaways, natural catchlights, slight natural asymmetry, and true-to-life color. It must read as an ordinary photo of a real person: not an illustration, painting, cartoon, 3D render, or CGI, and not airbrushed or beauty-filtered. No text, logos, watermarks, borders, or props.",
+  "promptSha256": "d3554ab23430c6009e2a7e14b75ee0e2c77515bc6197b1b081644394c2d3b340",
+  "imageSha256": "d877eeec73a0ac2bb2cd75a7eccb9362bff9703334e08ae9801d95cea9e8a8f0",
+  "generatedOn": "2026-11-02",
+  "framing": {
+    "cx": 0.5,
+    "cy": 0.472,
+    "height": 0.475
+  }
+}

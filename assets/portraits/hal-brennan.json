@@ -1,0 +1,13 @@
+{
+  "id": "hal-brennan",
+  "model": "codex-gpt-6-astra-xhigh",
+  "prompt": "Unretouched employee ID badge photograph of a fictional person in their mid 60s: white man with weathered fair skin, mostly bald with a short gray horseshoe fringe, gray-blue eyes, a thick gray mustache, a cheerful broad grin, wearing a dark green quarter-zip pullover. No glasses. Vertical 2:3 frame: head and shoulders, centered, facing the camera straight on, eyes open and looking into the lens, with clear space above the head and the tops of both shoulders in frame. Shot on a full-frame camera with an 85mm lens at f/8 under even, soft studio light with no harsh shadows, against a plain light gray-blue backdrop, in sharp focus. Real skin with visible pores, fine lines, and small blemishes true to the person's age, individual strands of hair with a few flyaways, natural catchlights, slight natural asymmetry, and true-to-life color. It must read as an ordinary photo of a real person: not an illustration, painting, cartoon, 3D render, or CGI, and not airbrushed or beauty-filtered. No text, logos, watermarks, borders, or props.",
+  "promptSha256": "21c6ec565de850a1ec37c385ff26694ebd29fbf6a8ea76afc588f9ea80dbc0ef",
+  "imageSha256": "bc3429898002999a8ee69e39d345ad6498f7dc84465886b5e18a5d459a8f595b",
+  "generatedOn": "2026-11-02",
+  "framing": {
+    "cx": 0.51,
+    "cy": 0.396,
+    "height": 0.465
+  }
+}

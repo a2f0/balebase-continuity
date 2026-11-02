@@ -1,0 +1,13 @@
+{
+  "id": "amara-osei",
+  "model": "codex-gpt-6-astra-xhigh",
+  "prompt": "Unretouched employee ID badge photograph of a fictional person in their mid 30s: Ghanaian-American woman with dark brown skin, short cropped natural black hair, dark brown eyes, small gold hoop earrings, a bright, open smile, wearing a mustard-yellow blouse under a navy blazer. No glasses. Vertical 2:3 frame: head and shoulders, centered, facing the camera straight on, eyes open and looking into the lens, with clear space above the head and the tops of both shoulders in frame. Shot on a full-frame camera with an 85mm lens at f/8 under even, soft studio light with no harsh shadows, against a plain light gray-blue backdrop, in sharp focus. Real skin with visible pores, fine lines, and small blemishes true to the person's age, individual strands of hair with a few flyaways, natural catchlights, slight natural asymmetry, and true-to-life color. It must read as an ordinary photo of a real person: not an illustration, painting, cartoon, 3D render, or CGI, and not airbrushed or beauty-filtered. No text, logos, watermarks, borders, or props.",
+  "promptSha256": "4177156f5c483e5d167b5070c3c7e62f46b4fa094cacd70a7b4b2561c71d4021",
+  "imageSha256": "597933727590f101582e3ceebc624dc8ef33c7f61aa9380f3b39419a304f4b84",
+  "generatedOn": "2026-11-02",
+  "framing": {
+    "cx": 0.5,
+    "cy": 0.384,
+    "height": 0.469
+  }
+}

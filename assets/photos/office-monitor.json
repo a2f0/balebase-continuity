@@ -1,0 +1,8 @@
+{
+  "id": "office-monitor",
+  "model": "codex-gpt-6-astra-xhigh",
+  "prompt": "Photorealistic equipment inventory photo for a fictional small business: a 27-inch computer monitor with thin matte black bezels on a simple height-adjustable stand, its screen showing a plain soft blue gradient, on a shared office desk with a wired keyboard, a desk lamp, and a rolled set of electrical drawings. The whole item is visible at a natural three-quarter angle in soft, even light, with realistic materials, fine surface texture, and slight everyday wear, in sharp focus. If any maker text is visible it reads only \"Clearline\" as a small, tasteful wordmark, and a serial label, if visible, reads \"CLQ27-2511-03391\". No real-world brands or logos, no people or hands, no watermark, overlay, collage, or illustration. It must look like an ordinary, sharp photo an office manager took for the equipment register. Landscape 3:2 composition.",
+  "promptSha256": "e8e052b0996f7cdd62ec8ce53108df122e0b58863bf6c23beef726c692846816",
+  "imageSha256": "02bb14e26760f45f2f748f64460844dc0431a22b0e365566d2bbc15911e448c9",
+  "generatedOn": "2026-11-02"
+}

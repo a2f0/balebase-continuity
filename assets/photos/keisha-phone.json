@@ -1,0 +1,8 @@
+{
+  "id": "keisha-phone",
+  "model": "codex-gpt-6-astra-xhigh",
+  "prompt": "Photorealistic equipment inventory photo for a fictional small business: a rugged smartphone in a black and safety-orange armored case, lying face up with its screen off, on a scuffed plywood jobsite workbench next to a coil of copper building wire and a pair of lineman's pliers. The whole item is visible at a natural three-quarter angle in soft, even light, with realistic materials, fine surface texture, and slight everyday wear, in sharp focus. If any maker text is visible it reads only \"Tidewell\" as a small, tasteful wordmark, and a serial label, if visible, reads \"TW6R-81553027\". No real-world brands or logos, no people or hands, no watermark, overlay, collage, or illustration. It must look like an ordinary, sharp photo an office manager took for the equipment register. Landscape 3:2 composition.",
+  "promptSha256": "7b406df9edae2530168ef70c6f2497186154ca4f4fd183a2c34c85c11dc067ad",
+  "imageSha256": "17a5a9867a3408934e74d7b31eb26dcfc1238c93cbbd811cec63117287479bc5",
+  "generatedOn": "2026-11-02"
+}
