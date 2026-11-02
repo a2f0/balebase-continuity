@@ -38,6 +38,13 @@ export function pastDate(
     : undefined;
 }
 
+/** A problem unless `date` is a real calendar date. */
+export function calendarDate(label: string, date: IsoDate): string | undefined {
+  return isIsoDate(date)
+    ? undefined
+    : `${label} ${date} is not a calendar date`;
+}
+
 /** A problem unless `earlier` is on or before `later`. */
 export function inOrder(
   label: string,

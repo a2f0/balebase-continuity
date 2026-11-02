@@ -155,6 +155,37 @@ const cases: readonly [string, Change, string][] = [
     "requirement ren-withholding-form has a completion date exactly when it is complete",
   ],
   [
+    "a malformed due date",
+    (w) => ({
+      ...w,
+      requirements: replace(w.requirements, "tomas-direct-deposit", (item) => ({
+        ...item,
+        dueOn: "2026-10-32",
+      })),
+    }),
+    "requirement tomas-direct-deposit due 2026-10-32 is not a calendar date",
+  ],
+  [
+    "a malformed contract due date",
+    (w) => ({
+      ...w,
+      contracts: replace(
+        w.contracts,
+        "oak-street-inspection-agreement",
+        (c) => ({
+          ...c,
+          dueOn: "soon",
+        }),
+      ),
+    }),
+    "contract oak-street-inspection-agreement due soon is not a calendar date",
+  ],
+  [
+    "a malformed story date, without throwing",
+    (w) => ({ ...w, asOf: "2026-13-01" }),
+    "story date 2026-13-01 is not a calendar date",
+  ],
+  [
     "a reused ID",
     (w) => ({
       ...w,

@@ -1,5 +1,11 @@
 import type { Contract, Requirement } from "../types";
-import { type Context, inOrder, pastDate, present } from "./context";
+import {
+  type Context,
+  calendarDate,
+  inOrder,
+  pastDate,
+  present,
+} from "./context";
 
 // Contracts, employee requirements, and library documents.
 
@@ -19,6 +25,7 @@ function checkContractDates(ctx: Context, contract: Contract): string[] {
     return [`${label} was ${status} without sent and due dates`];
   }
   return present(
+    calendarDate(`${label} due`, dueOn),
     pastDate(world, `${label} sent`, sentOn),
     inOrder(`${label} is due before it was sent`, sentOn, dueOn),
     status === "completed" && !completedOn
@@ -98,6 +105,7 @@ function checkRequirement(ctx: Context, item: Requirement): string[] {
         )
       : undefined,
     pastDate(world, `${label} requested`, item.requestedOn),
+    calendarDate(`${label} due`, item.dueOn),
     inOrder(
       `${label} is due before it was requested`,
       item.requestedOn,
