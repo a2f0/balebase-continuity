@@ -1,10 +1,10 @@
 {
   "name": "@a2f0/balebase-continuity",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Canonical fictional people, equipment, and records rendered into the genesis data that seeds Balebase",
   "license": "UNLICENSED",
   "type": "module",
-  "packageManager": "bun@1.4.3",
+  "packageManager": "bun@1.4.4",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/a2f0/balebase-continuity.git"
@@ -55,16 +55,16 @@
     "*.md": "bun --bun x markdownlint-cli2 --fix"
   },
   "devDependencies": {
-    "@a2f0/agent-tool": "0.1.31",
-    "@biomejs/biome": "2.6.2",
+    "@a2f0/agent-tool": "0.1.38",
+    "@biomejs/biome": "2.6.4",
     "@commitlint/cli": "21.2.4",
     "@commitlint/config-conventional": "21.2.4",
     "@ls-lint/ls-lint": "2.3.2",
     "@resvg/resvg-js": "2.6.2",
     "@tsconfig/strictest": "2.0.8",
-    "@types/bun": "1.4.3",
+    "@types/bun": "1.4.4",
     "jpeg-js": "0.4.4",
-    "knip": "6.42.1",
+    "knip": "6.44.1",
     "lint-staged": "17.6.0",
     "markdownlint-cli2": "0.24.0",
     "typescript": "7.0.2",
