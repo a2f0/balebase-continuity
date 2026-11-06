@@ -1,6 +1,6 @@
 {
   "name": "@a2f0/balebase-continuity",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Canonical fictional people, equipment, and records rendered into the genesis data that seeds Balebase",
   "license": "UNLICENSED",
   "type": "module",
@@ -55,7 +55,7 @@
     "*.md": "bun --bun x markdownlint-cli2 --fix"
   },
   "devDependencies": {
-    "@a2f0/agent-tool": "0.1.46",
+    "@a2f0/agent-tool": "0.1.51",
     "@biomejs/biome": "2.6.4",
     "@commitlint/cli": "21.2.4",
     "@commitlint/config-conventional": "21.2.4",

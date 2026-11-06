@@ -84,6 +84,22 @@ lists them: vendored fonts, `assets/portraits/`, `assets/photos/`, and
 1536 px (the image tests check both). Regenerating images adds to history, so
 avoid churning them without a reason.
 
+## State machines
+
+Make implicit state machines explicit when you write or change code: one closed
+state type (a discriminated union, enum, or sealed type) carrying each state's
+data, typed events, and one pure transition function, with effects run on
+entering a state and async work tagged so only the current request can finish.
+Follow the `explicit-state-machines` skill for what to convert, what to leave
+alone, and how to prove behavior did not change; `agent-tool state-machines`
+lists leads. Reviews flag new implicit machines.
+
+This repository has no runtime machines: canon `status` fields and their dates
+are static data whose lifecycle rules live only in
+`src/canon/validation/records.ts` and `work.ts`. Derive any other status in one
+place, as `src/export/balebaseSeed.ts` does for audits and issues and
+`imageStatus` in `src/images/sidecar.ts` does for images.
+
 ## Agent tooling and shipping
 
 Review, PR, merge, and version helpers come from the exact-pinned
