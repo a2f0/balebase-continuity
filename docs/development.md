@@ -20,8 +20,15 @@ pulling hook changes; the pre-push hook refuses stale copies.
 - `commit-msg` runs the shared commit check and commitlint.
 - `pre-commit` checks the branch name, file names, staged binaries, and runs
   lint-staged.
-- `pre-push` checks hooks, the pushed branch names, each pushed range's
-  commit trust and binaries, then runs `bun run check`.
+- `pre-push` is agent-tool's push gate, printed by
+  `bun run agent-tool push-gate hook`; never edit it by hand. It checks
+  installed hooks, managed skills and harness permissions, the pushed branch
+  names, and each pushed range's commit trust and binaries, then runs the
+  `pushGate` steps in `agent-tool.json`: Biome, ls-lint, Markdown, ShellCheck,
+  project skills, Knip, TypeScript, `canon:check`, and `genesis:check`.
+  Tests and the gallery build run in CI only. `bun run agent-tool runs list`
+  shows each push's step timings, and `bun run agent-tool push-gate check`
+  rejects a step that reaches a test runner, install, or build.
 
 Branch names use the same Conventional Commits types and 50-character limit as
 commit headers, with `main` exempt. Create one with
@@ -30,10 +37,13 @@ commit headers, with `main` exempt. Create one with
 ## Protection
 
 `main` is protected by the `protect-main` ruleset: no deletion or force-push,
-signed commits, pull requests merged by squash only, and the strict required
-check `CI gate`. The CI workflow's `CI gate` job passes only when every job
-listed in `scripts/checks/ci-gate.json` succeeded, so a skipped job cannot
-satisfy it. A pull request must be current with `main` before it merges.
+signed commits, pull requests merged by squash only, and the required check
+`CI gate`. The CI workflow's `CI gate` job passes only when every job listed in
+`scripts/checks/ci-gate.json` succeeded, so a skipped job cannot satisfy it.
+A pull request need not be current with `main` to merge: integrate a moved
+`main` only when GitHub reports a conflict or `versions check` fails against
+it. CI runs on every push to `main`, so a break two merges cause together shows
+up there and is repaired before the next change ships.
 
 ## Validation and scripts
 
