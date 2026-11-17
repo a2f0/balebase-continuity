@@ -23,8 +23,7 @@
         "name": "CI gate",
         "workflow": "CI"
       }
-    ],
-    "requireStrictBaseFreshness": true
+    ]
   },
   "versions": {
     "packages": ["."]
@@ -68,6 +67,20 @@
         "executable": true
       }
     ]
+  },
+  "pushGate": {
+    "steps": [
+      { "label": "format-and-lint", "command": ["bun", "run", "lint:biome"] },
+      { "label": "file-names", "command": ["bun", "run", "lint:files"] },
+      { "label": "markdown", "command": ["bun", "run", "lint:markdown"] },
+      { "label": "shell", "command": ["bun", "run", "lint:scripts"] },
+      { "label": "project-skills", "command": ["bun", "run", "lint:skills"] },
+      { "label": "unused-code", "command": ["bun", "run", "lint:knip"] },
+      { "label": "types", "command": ["bun", "run", "typecheck"] },
+      { "label": "canon", "command": ["bun", "run", "canon:check"] },
+      { "label": "genesis", "command": ["bun", "run", "genesis:check"] }
+    ],
+    "budgetSeconds": 120
   },
   "commits": {
     "signatures": "present",

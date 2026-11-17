@@ -18,7 +18,11 @@ For dependency changes, use the managed `update-dependencies` skill and
   TypeScript.
 - `bun run check`: `check:fast`, tests, canon consistency and image status, a
   full re-render proving `genesis/` matches canon byte for byte, then the
-  gallery build. The pre-push hook runs it.
+  gallery build.
+- Pre-push hook: agent-tool's push gate runs the shared trust guards, then the
+  static `pushGate` steps in `agent-tool.json`: `check:fast` without managed
+  skills and binary placement, which the guards cover, plus `canon:check` and
+  `genesis:check`. Tests and the gallery build run in CI only.
 - `bun run canon:check`: continuity rules and image status alone.
 - `bun run genesis:check`: the re-render alone (under a second).
 
@@ -126,8 +130,9 @@ Shipping rules on top of the shared skills:
   `bun run agent-tool versions prepare "$BASE_OID"`.
 - **Titles**: PR titles and squash subjects follow `commitlint.config.mts`;
   check branch names with `bun run lint:branch-name <name>`.
-- **Merge**: `main` requires the strict `CI gate` check, so a PR must be
-  current with `main`. Run
+- **Merge**: `main` requires the `CI gate` check but not a branch current with
+  `main`; integrate a moved base only on a conflict or a failing
+  `versions check`. Run
   `node_modules/.bin/agent-tool pr merge '' "$REVIEWED_SHA" "$BASE_REF"`
   directly, because `bun run` drops empty arguments. Never use `gh pr merge`.
 - **Reset**: after returning to `main`, run `bun run hooks:install` so merged
