@@ -11,6 +11,7 @@ ls:
     .ts: camelCase
 
   scripts:
+    .test.ts: camelCase
     .ts: camelCase
     .sh: camelCase
 
