@@ -6,7 +6,8 @@ all genesis files byte for byte. Do not regenerate tracked images merely to
 make a dependency upgrade pass; a resvg or jpeg-js change that alters avatar
 bytes is a real output change and ships with the regenerated `genesis/`.
 Verify rendering on Linux and macOS through CI. Run `bun run agents:sync`
-after changing agent-tool.
+after changing agent-tool, and list any new managed Markdown files under
+`ignores` in `.markdownlint-cli2.jsonc`.
 
 The published package contains genesis data only. Keep run-specific
 inventories and validation results in the upgrade PR.

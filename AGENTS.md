@@ -110,7 +110,7 @@ Review, PR, merge, and version helpers come from the exact-pinned
 [`@a2f0/agent-tool`](https://github.com/a2f0/agent-tool) dev dependency; run it
 with `bun run agent-tool`. Title, required-check, binary, and version policy is
 in `agent-tool.json`. Shared skills, such as `ship-pr`,
-`update-dependencies`, and `take-screenshots`, are managed copies in
+`update-dependencies`, and `cross-agent-review`, are managed copies in
 `.agents/skills` and `.claude/skills` that come from the pin;
 `.agent-tool-skills.json` lists every managed file. Do not edit them.
 Project-owned skills (`portrait-fidelity`, `photo-fidelity`) live byte for
