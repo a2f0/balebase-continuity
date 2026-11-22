@@ -109,14 +109,16 @@ place, as `src/export/balebaseSeed.ts` does for audits and issues and
 Review, PR, merge, and version helpers come from the exact-pinned
 [`@a2f0/agent-tool`](https://github.com/a2f0/agent-tool) dev dependency; run it
 with `bun run agent-tool`. Title, required-check, binary, and version policy is
-in `agent-tool.json`. The shared `cross-agent-review`, `open-pr`,
-`squash-merge`, `ship-pr`, `reset`, and `update-dependencies` skills are
-managed copies in `.agents/skills` and `.claude/skills`, tracked by
-`.agent-tool-skills.json`. Do not edit them. Project-owned skills
-(`portrait-fidelity`, `photo-fidelity`) live byte for byte in both
-directories; `bun run lint:skills` fails when the copies differ. After
-changing the pin or `permissions.executables`, run `bun run agents:sync` and
-commit the lockfile, skills, manifest, and generated harness rules together.
+in `agent-tool.json`. Shared skills, such as `ship-pr`,
+`update-dependencies`, and `take-screenshots`, are managed copies in
+`.agents/skills` and `.claude/skills` that come from the pin;
+`.agent-tool-skills.json` lists every managed file. Do not edit them.
+Project-owned skills (`portrait-fidelity`, `photo-fidelity`) live byte for
+byte in both directories; `bun run lint:skills` fails when the copies differ.
+After changing the pin or `permissions.executables`, run `bun run agents:sync`
+and commit the lockfile, skills, manifest, and generated harness rules
+together. List new managed Markdown files under `ignores` in
+`.markdownlint-cli2.jsonc`; agent-tool owns their formatting.
 Run classified CLIs through `bun run agent-tool bun x <name> [-- args...]`:
 `commitlint` is `local`, and `wrangler` is `release` because it deploys.
 
